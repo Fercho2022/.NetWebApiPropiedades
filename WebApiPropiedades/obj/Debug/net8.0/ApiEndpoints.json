@@ -56,5 +56,47 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.CityController",
+    "Method": "UpdateCity",
+    "RelativePath": "api/City/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "cityDto",
+        "Type": "WebApiPropiedades.Dtos.CityDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.CityController",
+    "Method": "UpdateCity",
+    "RelativePath": "api/City/updateCityName/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "cityUpdateDto",
+        "Type": "WebApiPropiedades.Dtos.CityUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

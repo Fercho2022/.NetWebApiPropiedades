@@ -1,5 +1,8 @@
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.EntityFrameworkCore;
+using System.Net;
 using WebApiPropiedades.Data;
+using WebApiPropiedades.Extensions;
 using WebApiPropiedades.Interface;
 using WebApiPropiedades.Repository;
 
@@ -50,7 +53,12 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+   
+
 }
+
+app.UseCustomExceptionMiddleware();
+
 
 app.UseHttpsRedirection();
 

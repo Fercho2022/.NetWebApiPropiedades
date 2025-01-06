@@ -26,6 +26,11 @@ namespace WebApiPropiedades.Repository
             _context.Cities.Remove(city);
         }
 
+        public async Task<City> FindCity(int cityId)
+        {
+            return await _context.Cities.FindAsync(cityId);
+        }
+
         public async Task<IEnumerable<City>> GetAllCitiesAsync()
         {
             return await _context.Cities.ToListAsync();

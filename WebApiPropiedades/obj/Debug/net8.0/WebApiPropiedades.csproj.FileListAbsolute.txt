@@ -142,3 +142,4 @@ D:\API-REST-NET\WebApiPropiedades\WebApiPropiedades\obj\Debug\net8.0\WebApiPropi
 D:\API-REST-NET\WebApiPropiedades\WebApiPropiedades\obj\Debug\net8.0\WebApiPropiedades.genruntimeconfig.cache
 D:\API-REST-NET\WebApiPropiedades\WebApiPropiedades\obj\Debug\net8.0\ref\WebApiPropiedades.dll
 D:\API-REST-NET\WebApiPropiedades\WebApiPropiedades\bin\Debug\net8.0\AutoMapper.dll
+D:\API-REST-NET\WebApiPropiedades\WebApiPropiedades\obj\Debug\net8.0\WebApiPropiedades.sourcelink.json
