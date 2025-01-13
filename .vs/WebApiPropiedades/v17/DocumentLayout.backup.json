@@ -3,56 +3,104 @@
   "WorkspaceRootPath": "D:\\API-REST-NET\\WebApiPropiedades\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Migrations\\20250112231546_SeedDataRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApiPropiedades\\Migrations\\20250112231546_SeedDataRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\exceptions\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\exceptions\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\extensions\\exceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\extensions\\exceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\exceptions\\unauthorizedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\exceptions\\unauthorizedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\dtos\\city\\citydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\dtos\\city\\citydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\repository\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\repository\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\dtos\\account\\newuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\dtos\\account\\newuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\dtos\\account\\registerreqdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\dtos\\account\\registerreqdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\interface\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\interface\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\dtos\\account\\loginreqdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\dtos\\account\\loginreqdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\webapipropiedades.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\webapipropiedades.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\dtos\\citydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\dtos\\citydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Migrations\\20250112141354_IdentityUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApiPropiedades\\Migrations\\20250112141354_IdentityUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Migrations\\20250110231443_AddUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApiPropiedades\\Migrations\\20250110231443_AddUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\extensions\\exceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\extensions\\exceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\exceptions\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\exceptions\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\exceptions\\unauthorizedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\exceptions\\unauthorizedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\dtos\\cityupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\dtos\\cityupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\helpers\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,18 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\interface\\icityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\interface\\icityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\repository\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\repository\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\migrations\\20250102231344_addlastupdatedfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -85,20 +121,24 @@
     {
       "AbsoluteMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|d:\\api-rest-net\\webapipropiedades\\webapipropiedades\\migrations\\20250103232042_addcountrycolum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{907CB03B-4135-4374-8FB8-0BDC4C561861}|WebApiPropiedades\\WebApiPropiedades.csproj|solutionrelative:webapipropiedades\\migrations\\20250103232042_addcountrycolum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Dtos\\LoginResDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApiPropiedades\\Dtos\\LoginResDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 173,
+      "VerticalTabListWidth": 158,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3822e751-eb69-4b0e-b301-595a9e4c74d5}"
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             },
             {
               "$type": "Bookmark",
@@ -107,6 +147,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3822e751-eb69-4b0e-b301-595a9e4c74d5}"
             },
             {
               "$type": "Bookmark",
@@ -126,7 +170,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "20250112231546_SeedDataRoles.cs",
+              "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Migrations\\20250112231546_SeedDataRoles.cs",
+              "RelativeDocumentMoniker": "WebApiPropiedades\\Migrations\\20250112231546_SeedDataRoles.cs",
+              "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Migrations\\20250112231546_SeedDataRoles.cs",
+              "RelativeToolTip": "WebApiPropiedades\\Migrations\\20250112231546_SeedDataRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T23:15:46.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterReqDto.cs",
+              "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Dtos\\Account\\RegisterReqDto.cs",
+              "RelativeDocumentMoniker": "WebApiPropiedades\\Dtos\\Account\\RegisterReqDto.cs",
+              "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Dtos\\Account\\RegisterReqDto.cs",
+              "RelativeToolTip": "WebApiPropiedades\\Dtos\\Account\\RegisterReqDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T19:41:02.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NewUserDto.cs",
+              "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Dtos\\Account\\NewUserDto.cs",
+              "RelativeDocumentMoniker": "WebApiPropiedades\\Dtos\\Account\\NewUserDto.cs",
+              "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Dtos\\Account\\NewUserDto.cs",
+              "RelativeToolTip": "WebApiPropiedades\\Dtos\\Account\\NewUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:48:07.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Interface\\ITokenService.cs",
+              "RelativeDocumentMoniker": "WebApiPropiedades\\Interface\\ITokenService.cs",
+              "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Interface\\ITokenService.cs",
+              "RelativeToolTip": "WebApiPropiedades\\Interface\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:19:29.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "WebApiPropiedades\\Services\\TokenService.cs",
+              "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Services\\TokenService.cs",
+              "RelativeToolTip": "WebApiPropiedades\\Services\\TokenService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:18:00.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250112141354_IdentityUser.cs",
+              "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Migrations\\20250112141354_IdentityUser.cs",
+              "RelativeDocumentMoniker": "WebApiPropiedades\\Migrations\\20250112141354_IdentityUser.cs",
+              "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Migrations\\20250112141354_IdentityUser.cs",
+              "RelativeToolTip": "WebApiPropiedades\\Migrations\\20250112141354_IdentityUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:13:54.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "WebApiPropiedades\\Models\\AppUser.cs",
+              "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Models\\AppUser.cs",
+              "RelativeToolTip": "WebApiPropiedades\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T11:54:29.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoginResDto.cs",
+              "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Dtos\\LoginResDto.cs",
+              "RelativeDocumentMoniker": "WebApiPropiedades\\Dtos\\LoginResDto.cs",
+              "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Dtos\\LoginResDto.cs",
+              "RelativeToolTip": "WebApiPropiedades\\Dtos\\LoginResDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T19:52:53.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginReqDto.cs",
+              "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Dtos\\Account\\LoginReqDto.cs",
+              "RelativeDocumentMoniker": "WebApiPropiedades\\Dtos\\Account\\LoginReqDto.cs",
+              "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Dtos\\Account\\LoginReqDto.cs",
+              "RelativeToolTip": "WebApiPropiedades\\Dtos\\Account\\LoginReqDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T15:38:57.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebApiPropiedades\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebApiPropiedades\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T23:47:58.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250110231443_AddUser.cs",
+              "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Migrations\\20250110231443_AddUser.cs",
+              "RelativeDocumentMoniker": "WebApiPropiedades\\Migrations\\20250110231443_AddUser.cs",
+              "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Migrations\\20250110231443_AddUser.cs",
+              "RelativeToolTip": "WebApiPropiedades\\Migrations\\20250110231443_AddUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T23:14:43.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "UnauthorizedException.cs",
               "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Exceptions\\UnauthorizedException.cs",
               "RelativeDocumentMoniker": "WebApiPropiedades\\Exceptions\\UnauthorizedException.cs",
@@ -139,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "BadRequestException.cs",
               "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Exceptions\\BadRequestException.cs",
               "RelativeDocumentMoniker": "WebApiPropiedades\\Exceptions\\BadRequestException.cs",
@@ -152,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "NotFoundException.cs",
               "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Exceptions\\NotFoundException.cs",
               "RelativeDocumentMoniker": "WebApiPropiedades\\Exceptions\\NotFoundException.cs",
@@ -165,46 +352,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 20,
               "Title": "CustomException.cs",
               "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Exceptions\\CustomException.cs",
               "RelativeDocumentMoniker": "WebApiPropiedades\\Exceptions\\CustomException.cs",
               "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Exceptions\\CustomException.cs",
               "RelativeToolTip": "WebApiPropiedades\\Exceptions\\CustomException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T20:27:20.597Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 19,
               "Title": "ExceptionMiddlewareExtensions.cs",
               "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Extensions\\ExceptionMiddlewareExtensions.cs",
               "RelativeDocumentMoniker": "WebApiPropiedades\\Extensions\\ExceptionMiddlewareExtensions.cs",
               "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Extensions\\ExceptionMiddlewareExtensions.cs",
               "RelativeToolTip": "WebApiPropiedades\\Extensions\\ExceptionMiddlewareExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T20:17:16.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
               "Title": "ExceptionMiddleware.cs",
               "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Middlewares\\ExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "WebApiPropiedades\\Middlewares\\ExceptionMiddleware.cs",
               "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Middlewares\\ExceptionMiddleware.cs",
               "RelativeToolTip": "WebApiPropiedades\\Middlewares\\ExceptionMiddleware.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAADwvx0AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T20:06:48.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 23,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebApiPropiedades\\Properties\\launchSettings.json",
@@ -217,20 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CityUpdateDto.cs",
-              "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Dtos\\CityUpdateDto.cs",
-              "RelativeDocumentMoniker": "WebApiPropiedades\\Dtos\\CityUpdateDto.cs",
-              "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Dtos\\CityUpdateDto.cs",
-              "RelativeToolTip": "WebApiPropiedades\\Dtos\\CityUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T14:38:58.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "20250103232042_AddCountryColum.cs",
               "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Migrations\\20250103232042_AddCountryColum.cs",
               "RelativeDocumentMoniker": "WebApiPropiedades\\Migrations\\20250103232042_AddCountryColum.cs",
@@ -243,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 25,
               "Title": "AutoMapperProfiles.cs",
               "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Helpers\\AutoMapperProfiles.cs",
               "RelativeDocumentMoniker": "WebApiPropiedades\\Helpers\\AutoMapperProfiles.cs",
@@ -256,12 +430,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "CityDto.cs",
-              "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Dtos\\CityDto.cs",
-              "RelativeDocumentMoniker": "WebApiPropiedades\\Dtos\\CityDto.cs",
-              "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Dtos\\CityDto.cs",
-              "RelativeToolTip": "WebApiPropiedades\\Dtos\\CityDto.cs",
+              "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Dtos\\City\\CityDto.cs",
+              "RelativeDocumentMoniker": "WebApiPropiedades\\Dtos\\City\\CityDto.cs",
+              "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Dtos\\City\\CityDto.cs",
+              "RelativeToolTip": "WebApiPropiedades\\Dtos\\City\\CityDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-02T23:57:36.698Z",
@@ -269,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 27,
               "Title": "20250102231344_AddLastUpdatedFields.cs",
               "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Migrations\\20250102231344_AddLastUpdatedFields.cs",
               "RelativeDocumentMoniker": "WebApiPropiedades\\Migrations\\20250102231344_AddLastUpdatedFields.cs",
@@ -282,20 +456,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 8,
               "Title": "CityRepository.cs",
               "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Repository\\CityRepository.cs",
               "RelativeDocumentMoniker": "WebApiPropiedades\\Repository\\CityRepository.cs",
               "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Repository\\CityRepository.cs",
               "RelativeToolTip": "WebApiPropiedades\\Repository\\CityRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA0wCAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvx8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-01T16:59:27.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 26,
               "Title": "ICityRepository.cs",
               "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Interface\\ICityRepository.cs",
               "RelativeDocumentMoniker": "WebApiPropiedades\\Interface\\ICityRepository.cs",
@@ -308,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "20241231185323_InitialDb.cs",
               "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Migrations\\20241231185323_InitialDb.cs",
               "RelativeDocumentMoniker": "WebApiPropiedades\\Migrations\\20241231185323_InitialDb.cs",
@@ -321,72 +495,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\appsettings.json",
               "RelativeDocumentMoniker": "WebApiPropiedades\\appsettings.json",
               "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\appsettings.json",
               "RelativeToolTip": "WebApiPropiedades\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-31T18:50:32.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Program.cs",
               "RelativeDocumentMoniker": "WebApiPropiedades\\Program.cs",
               "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Program.cs",
               "RelativeToolTip": "WebApiPropiedades\\Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADAAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAywF0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-31T18:49:37.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "CityController.cs",
               "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Controllers\\CityController.cs",
               "RelativeDocumentMoniker": "WebApiPropiedades\\Controllers\\CityController.cs",
               "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Controllers\\CityController.cs",
               "RelativeToolTip": "WebApiPropiedades\\Controllers\\CityController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACQAAABeAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAswCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-31T18:45:11.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 24,
               "Title": "City.cs",
               "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Models\\City.cs",
               "RelativeDocumentMoniker": "WebApiPropiedades\\Models\\City.cs",
               "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Models\\City.cs",
               "RelativeToolTip": "WebApiPropiedades\\Models\\City.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAABAwAoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-31T18:43:36.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 2,
               "Title": "DataContext.cs",
               "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "WebApiPropiedades\\Data\\DataContext.cs",
               "ToolTip": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\Data\\DataContext.cs",
               "RelativeToolTip": "WebApiPropiedades\\Data\\DataContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAABcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-31T18:14:31.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "WebApiPropiedades.csproj",
               "DocumentMoniker": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\WebApiPropiedades.csproj",
               "RelativeDocumentMoniker": "WebApiPropiedades\\WebApiPropiedades.csproj",

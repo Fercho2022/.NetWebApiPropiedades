@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using WebApiPropiedades.Dtos;
+using WebApiPropiedades.Dtos.City;
 using WebApiPropiedades.Models;
 
 namespace WebApiPropiedades.Helpers

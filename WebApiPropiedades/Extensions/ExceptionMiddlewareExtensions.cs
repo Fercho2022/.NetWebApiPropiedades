@@ -1,13 +1,15 @@
-﻿using WebApiPropiedades.Middlewares;
+﻿using WebApiPropiedades.Exceptions;
+using WebApiPropiedades.Middlewares;
 
 namespace WebApiPropiedades.Extensions
 {
     public static class ExceptionMiddlewareExtensions
     {
-        public static IApplicationBuilder UseCustomExceptionMiddleware(
-                this IApplicationBuilder builder)
+        public static WebApplication UseCustomExceptionMiddleware(
+                this WebApplication app)
         {
-            return builder.UseMiddleware<ExceptionMiddleware>();
+            
+            return (WebApplication)app.UseMiddleware<ExceptionMiddleware>();
         }
     }
 }

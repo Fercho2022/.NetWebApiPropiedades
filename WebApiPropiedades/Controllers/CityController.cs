@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApiPropiedades.Data;
-using WebApiPropiedades.Dtos;
+using WebApiPropiedades.Dtos.City;
 using WebApiPropiedades.Exceptions;
 using WebApiPropiedades.Interface;
 using WebApiPropiedades.Models;
@@ -34,7 +34,7 @@ namespace WebApiPropiedades.Controllers
         public async Task<IActionResult> GetCities()
         {
 
-            throw new CustomException("Usuario no encontrado", StatusCodes.Status404NotFound);
+            
 
             var cities = await this.cityRepository.GetAllCitiesAsync();
 

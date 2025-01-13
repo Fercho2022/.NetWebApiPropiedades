@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "WebApiPropiedades.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginReqDto",
+        "Type": "WebApiPropiedades.Dtos.Account.LoginReqDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/Account/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerReqDto",
+        "Type": "WebApiPropiedades.Dtos.Account.RegisterReqDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApiPropiedades.Controllers.CityController",
     "Method": "GetCities",
     "RelativePath": "api/City",
@@ -51,7 +83,7 @@
     "Parameters": [
       {
         "Name": "cityDto",
-        "Type": "WebApiPropiedades.Dtos.CityDto",
+        "Type": "WebApiPropiedades.Dtos.City.CityDto",
         "IsRequired": true
       }
     ],
@@ -72,7 +104,7 @@
       },
       {
         "Name": "cityDto",
-        "Type": "WebApiPropiedades.Dtos.CityDto",
+        "Type": "WebApiPropiedades.Dtos.City.CityDto",
         "IsRequired": true
       }
     ],
@@ -93,7 +125,7 @@
       },
       {
         "Name": "cityUpdateDto",
-        "Type": "WebApiPropiedades.Dtos.CityUpdateDto",
+        "Type": "WebApiPropiedades.Dtos.City.CityUpdateDto",
         "IsRequired": true
       }
     ],

@@ -25,6 +25,7 @@ namespace WebApiPropiedades.Middlewares
                 var response = context.Response;
                 response.ContentType = "application/json";
 
+               
                 switch (error)
                 {
                     case CustomException e:

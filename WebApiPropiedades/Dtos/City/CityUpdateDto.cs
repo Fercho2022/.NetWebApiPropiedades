@@ -1,4 +1,4 @@
-﻿namespace WebApiPropiedades.Dtos
+﻿namespace WebApiPropiedades.Dtos.City
 {
     public class CityUpdateDto
     {
