@@ -131,9 +131,11 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
-   
-
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApiPropiedades V1");
+        c.RoutePrefix = string.Empty; // Esto hará que Swagger sea la página de inicio
+    });
 }
 
 app.UseCustomExceptionMiddleware();

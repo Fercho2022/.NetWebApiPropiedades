@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\WebApiPropiedades.csproj": {}
+    "C:\\Cursos\\Net\\WebApiPropiedades\\WebApiPropiedades\\WebApiPropiedades.csproj": {}
   },
   "projects": {
-    "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\WebApiPropiedades.csproj": {
+    "C:\\Cursos\\Net\\WebApiPropiedades\\WebApiPropiedades\\WebApiPropiedades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\WebApiPropiedades.csproj",
+        "projectUniqueName": "C:\\Cursos\\Net\\WebApiPropiedades\\WebApiPropiedades\\WebApiPropiedades.csproj",
         "projectName": "WebApiPropiedades",
-        "projectPath": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\WebApiPropiedades.csproj",
-        "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-        "outputPath": "D:\\API-REST-NET\\WebApiPropiedades\\WebApiPropiedades\\obj\\",
+        "projectPath": "C:\\Cursos\\Net\\WebApiPropiedades\\WebApiPropiedades\\WebApiPropiedades.csproj",
+        "packagesPath": "C:\\Users\\Standard\\.nuget\\packages\\",
+        "outputPath": "C:\\Cursos\\Net\\WebApiPropiedades\\WebApiPropiedades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Standard\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -114,7 +113,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
