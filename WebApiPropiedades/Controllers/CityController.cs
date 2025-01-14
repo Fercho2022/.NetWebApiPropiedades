@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Azure;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 
 using Microsoft.AspNetCore.Mvc;
@@ -15,6 +16,7 @@ namespace WebApiPropiedades.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CityController : ControllerBase
     {
 
@@ -31,6 +33,7 @@ namespace WebApiPropiedades.Controllers
         }
 
         [HttpGet("")]
+        //[AllowAnonymous]
         public async Task<IActionResult> GetCities()
         {
 
