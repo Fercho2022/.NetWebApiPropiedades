@@ -12,8 +12,8 @@ using WebApiPropiedades.Data;
 namespace WebApiPropiedades.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20250112141354_IdentityUser")]
-    partial class IdentityUser
+    [Migration("20250224160011_SeedDemoData")]
+    partial class SeedDemoData
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -50,6 +50,20 @@ namespace WebApiPropiedades.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "1",
+                            Name = "Admin",
+                            NormalizedName = "ADMIN"
+                        },
+                        new
+                        {
+                            Id = "2",
+                            Name = "User",
+                            NormalizedName = "USER"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -180,12 +194,6 @@ namespace WebApiPropiedades.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
 
-                    b.Property<string>("FirstName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("LastName")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
 
@@ -244,8 +252,9 @@ namespace WebApiPropiedades.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("LastUpdatedBy")
-                        .HasColumnType("int");
+                    b.Property<string>("LastUpdatedBy")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("LastUpdatedOn")
                         .HasColumnType("datetime2");
@@ -257,6 +266,193 @@ namespace WebApiPropiedades.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Cities");
+                });
+
+            modelBuilder.Entity("WebApiPropiedades.Models.FurnishingType", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("LastUpdatedBy")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("LastUpdatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("FurnishingTypes");
+                });
+
+            modelBuilder.Entity("WebApiPropiedades.Models.Photo", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsPrimary")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LastUpdatedBy")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("LastUpdatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("PropertyId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("PublicId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PropertyId");
+
+                    b.ToTable("Photos");
+                });
+
+            modelBuilder.Entity("WebApiPropiedades.Models.Property", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Address2")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Age")
+                        .HasColumnType("int");
+
+                    b.Property<int>("BHK")
+                        .HasColumnType("int");
+
+                    b.Property<int>("BuiltArea")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CarpetArea")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CityId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("EstPossessionOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("FloorNo")
+                        .HasColumnType("int");
+
+                    b.Property<int>("FurnishingTypeId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("Gated")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LastUpdatedBy")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("LastUpdatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("MainEntrance")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Maintenance")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PostedById")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("PostedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Price")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PropertyTypeId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("ReadyToMove")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("Security")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SellRent")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TotalFloors")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CityId");
+
+                    b.HasIndex("FurnishingTypeId");
+
+                    b.HasIndex("PostedById");
+
+                    b.HasIndex("PropertyTypeId");
+
+                    b.ToTable("Properties");
+                });
+
+            modelBuilder.Entity("WebApiPropiedades.Models.PropertyType", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("LastUpdatedBy")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("LastUpdatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("PropertyTypes");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -308,6 +504,77 @@ namespace WebApiPropiedades.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("WebApiPropiedades.Models.Photo", b =>
+                {
+                    b.HasOne("WebApiPropiedades.Models.Property", "Property")
+                        .WithMany("Photos")
+                        .HasForeignKey("PropertyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Property");
+                });
+
+            modelBuilder.Entity("WebApiPropiedades.Models.Property", b =>
+                {
+                    b.HasOne("WebApiPropiedades.Models.City", "City")
+                        .WithMany("Properties")
+                        .HasForeignKey("CityId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("WebApiPropiedades.Models.FurnishingType", "FurnishingType")
+                        .WithMany("Properties")
+                        .HasForeignKey("FurnishingTypeId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("WebApiPropiedades.Models.AppUser", "PostedBy")
+                        .WithMany("PropertiesListed")
+                        .HasForeignKey("PostedById")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("WebApiPropiedades.Models.PropertyType", "PropertyType")
+                        .WithMany("Properties")
+                        .HasForeignKey("PropertyTypeId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("City");
+
+                    b.Navigation("FurnishingType");
+
+                    b.Navigation("PostedBy");
+
+                    b.Navigation("PropertyType");
+                });
+
+            modelBuilder.Entity("WebApiPropiedades.Models.AppUser", b =>
+                {
+                    b.Navigation("PropertiesListed");
+                });
+
+            modelBuilder.Entity("WebApiPropiedades.Models.City", b =>
+                {
+                    b.Navigation("Properties");
+                });
+
+            modelBuilder.Entity("WebApiPropiedades.Models.FurnishingType", b =>
+                {
+                    b.Navigation("Properties");
+                });
+
+            modelBuilder.Entity("WebApiPropiedades.Models.Property", b =>
+                {
+                    b.Navigation("Photos");
+                });
+
+            modelBuilder.Entity("WebApiPropiedades.Models.PropertyType", b =>
+                {
+                    b.Navigation("Properties");
                 });
 #pragma warning restore 612, 618
         }

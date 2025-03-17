@@ -310,3 +310,8 @@ C:\Cursos\Net\WebApiPropiedades\WebApiPropiedades\obj\Debug\net8.0\refint\WebApi
 C:\Cursos\Net\WebApiPropiedades\WebApiPropiedades\obj\Debug\net8.0\WebApiPropiedades.pdb
 C:\Cursos\Net\WebApiPropiedades\WebApiPropiedades\obj\Debug\net8.0\WebApiPropiedades.genruntimeconfig.cache
 C:\Cursos\Net\WebApiPropiedades\WebApiPropiedades\obj\Debug\net8.0\ref\WebApiPropiedades.dll
+C:\Cursos\Net\WebApiPropiedades\WebApiPropiedades\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Cursos\Net\WebApiPropiedades\WebApiPropiedades\bin\Debug\net8.0\MailKit.dll
+C:\Cursos\Net\WebApiPropiedades\WebApiPropiedades\bin\Debug\net8.0\MimeKit.dll
+C:\Cursos\Net\WebApiPropiedades\WebApiPropiedades\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Cursos\Net\WebApiPropiedades\WebApiPropiedades\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

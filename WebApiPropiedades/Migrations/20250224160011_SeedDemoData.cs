@@ -5,25 +5,18 @@
 namespace WebApiPropiedades.Migrations
 {
     /// <inheritdoc />
-    public partial class AddCountryColum : Migration
+    public partial class SeedDemoData : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<string>(
-                name: "Country",
-                table: "Cities",
-                type: "nvarchar(max)",
-                nullable: false,
-                defaultValue: "");
+            migrationBuilder.Sql(@"");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropColumn(
-                name: "Country",
-                table: "Cities");
+            migrationBuilder.Sql(@"");
         }
     }
 }

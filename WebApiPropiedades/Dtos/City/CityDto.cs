@@ -7,12 +7,13 @@ namespace WebApiPropiedades.Dtos.City
 
         public int Id { get; set; }
 
-        [Required]
 
+        [Required(ErrorMessage = "Name is mandatory field")]
+        [StringLength(50, MinimumLength = 2)]
+        [RegularExpression(".*[a-zA-Z]+.*", ErrorMessage = "Only numerics are not allowed")]
         public string Name { get; set; }
 
-        [Required(ErrorMessage = "Country is mandatory field")]
-
+        [Required]
         public string Country { get; set; }
 
 

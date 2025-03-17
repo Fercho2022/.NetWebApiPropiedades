@@ -33,12 +33,16 @@ namespace WebApiPropiedades.Services
         public string CreateToken(AppUser user)
         {
             var claims = new List<Claim>
-           {
+            {
+
+                 // Agrega el ID del usuario como NameIdentifier
+                 new Claim(ClaimTypes.NameIdentifier, user.Id),
+
                 // Se crean claims (reclamaciones) que representan la
                 // información asociada con el usuario. En este caso,
                 // se incluyen el correo electrónico y el nombre de usuario
                 // como reclamaciones.
-
+                
                new Claim(JwtRegisteredClaimNames.Email, user.Email),
                new Claim(JwtRegisteredClaimNames.GivenName, user.UserName)
 
@@ -76,6 +80,6 @@ namespace WebApiPropiedades.Services
 
             return tokenHandler.WriteToken(token);
         }
-    
+
     }
 }

@@ -2,10 +2,8 @@
 
 namespace WebApiPropiedades.Dtos.City
 {
-    public class CityUpdateDto
+    public class CityCreateDto
     {
-        [Required(ErrorMessage = "El ID de la ciudad es obligatorio")]
-        public int Id { get; set; }
 
         [Required(ErrorMessage = "El nombre de la ciudad es obligatorio")]
         [StringLength(50, MinimumLength = 2, ErrorMessage = "El nombre debe tener entre 2 y 50 caracteres")]

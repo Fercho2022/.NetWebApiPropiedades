@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Net;
 using WebApiPropiedades.Dtos.Account;
 using WebApiPropiedades.Interface;
 using WebApiPropiedades.Models;
@@ -27,15 +29,22 @@ namespace WebApiPropiedades.Controllers
 
         private readonly SignInManager<AppUser> _signInManager;
 
+        private readonly IEmailService _emailService;
+
         //Este es el constructor de la clase AccountController, que recibe los 
         //objetos UserManager<AppUser>, ITokenService y SignInManager<AppUser> a través de la inyección de dependencias.
         //Esta es una práctica común en ASP.NET Core para administrar las 
         //dependencias de los controladores.
-        public AccountController(UserManager<AppUser> userManager, ITokenService tokenService, SignInManager<AppUser> signInManager)
+        public AccountController(UserManager<AppUser> userManager,
+            ITokenService tokenService, 
+            SignInManager<AppUser> signInManager,
+            IEmailService emailService
+            )
         {
             _userManager = userManager;
             _tokenService = tokenService;
             _signInManager = signInManager;
+            _emailService = emailService;
         }
 
         [HttpPost("login")]
@@ -82,6 +91,8 @@ namespace WebApiPropiedades.Controllers
         //los resultados de acción.
         public async Task<IActionResult> Register([FromBody] RegisterReqDto registerReqDto)
         {
+
+
             //código para procesar la solicitud de registro de usuario. 
             //asigna el rol "User" al usuario creado y devuelve respuestas HTTP 
             //correspondientes según el resultado de la operación. En caso de 
@@ -91,6 +102,24 @@ namespace WebApiPropiedades.Controllers
                 // Verifica la validez del modelo
 
                 if (!ModelState.IsValid) return BadRequest(ModelState);
+
+                // Validación de espacios en blanco
+                if (registerReqDto.UserName?.Contains(" ") == true)
+                {
+                    return BadRequest(new { error = "El nombre de usuario no puede contener espacios en blanco" });
+                }
+
+                // Trim de los campos
+                registerReqDto.UserName = registerReqDto.UserName?.Trim();
+                registerReqDto.Email = registerReqDto.Email?.Trim();
+                registerReqDto.Password = registerReqDto.Password?.Trim();
+
+                if (string.IsNullOrWhiteSpace(registerReqDto.UserName) ||
+                    string.IsNullOrWhiteSpace(registerReqDto.Email) ||
+                    string.IsNullOrWhiteSpace(registerReqDto.Password))
+                {
+                    return BadRequest(new { error = "Los campos no pueden estar vacíos" });
+                }
 
                 // crea un nuevo usuario utilizando UserManager,
 
@@ -150,6 +179,45 @@ namespace WebApiPropiedades.Controllers
                 return StatusCode(500, ex);
             }
 
+        }
+
+
+        [HttpPost("forgot-password")]
+        public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordDto forgotPasswordDto)
+        {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+
+            var user = await _userManager.FindByEmailAsync(forgotPasswordDto.Email);
+
+            if (user == null)
+                return Ok(); // Siempre devolver OK por seguridad
+
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+            // Aquí está el cambio - usar la URL del frontend
+            var resetLink = $"http://localhost:4200/user/reset-password?email={Uri.EscapeDataString(user.Email)}&token={Uri.EscapeDataString(token)}";
+
+            // Aquí deberías implementar el envío de email con el link de recuperación
+            await _emailService.SendPasswordResetEmailAsync(user.Email, resetLink);
+
+            return Ok(new { message = "Si el email existe, recibirás un link para restablecer tu contraseña" });
+        }
+
+        [HttpPost("reset-password")]
+        public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordDto resetPasswordDto)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var user = await _userManager.FindByEmailAsync(resetPasswordDto.Email);
+            if (user == null)
+                return BadRequest("Usuario no encontrado");
+
+            var result = await _userManager.ResetPasswordAsync(user, resetPasswordDto.Token, resetPasswordDto.Password);
+            if (result.Succeeded)
+                return Ok();
+
+            return BadRequest(result.Errors);
         }
     }
 }

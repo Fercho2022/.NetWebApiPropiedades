@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "WebApiPropiedades.Controllers.AccountController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/Account/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "forgotPasswordDto",
+        "Type": "WebApiPropiedades.Dtos.Account.ForgotPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.AccountController",
     "Method": "Login",
     "RelativePath": "api/Account/login",
     "HttpMethod": "POST",
@@ -32,29 +48,45 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApiPropiedades.Controllers.CityController",
-    "Method": "GetCities",
-    "RelativePath": "api/City",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebApiPropiedades.Controllers.CityController",
-    "Method": "AddCity",
-    "RelativePath": "api/City/add",
+    "ContainingType": "WebApiPropiedades.Controllers.AccountController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Account/reset-password",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "cityName",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "resetPasswordDto",
+        "Type": "WebApiPropiedades.Dtos.Account.ResetPasswordDto",
+        "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.CityController",
+    "Method": "GetCity",
+    "RelativePath": "api/City/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.CityController",
+    "Method": "GetCities",
+    "RelativePath": "api/City/cities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -83,7 +115,7 @@
     "Parameters": [
       {
         "Name": "cityDto",
-        "Type": "WebApiPropiedades.Dtos.City.CityDto",
+        "Type": "WebApiPropiedades.Dtos.City.CityCreateDto",
         "IsRequired": true
       }
     ],
@@ -104,7 +136,7 @@
       },
       {
         "Name": "cityDto",
-        "Type": "WebApiPropiedades.Dtos.City.CityDto",
+        "Type": "WebApiPropiedades.Dtos.City.CityUpdateDto",
         "IsRequired": true
       }
     ],
@@ -112,7 +144,28 @@
   },
   {
     "ContainingType": "WebApiPropiedades.Controllers.CityController",
-    "Method": "UpdateCity",
+    "Method": "UpdateCityPatch",
+    "RelativePath": "api/City/update/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "cityToPatch",
+        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.CityController",
+    "Method": "UpdateCityName",
     "RelativePath": "api/City/updateCityName/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -124,8 +177,93 @@
         "IsRequired": true
       },
       {
-        "Name": "cityUpdateDto",
+        "Name": "cityDto",
         "Type": "WebApiPropiedades.Dtos.City.CityUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.PropertyController",
+    "Method": "AddProperty",
+    "RelativePath": "api/Property",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "propertyDto",
+        "Type": "WebApiPropiedades.Dtos.Property.PropertyCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.PropertyController",
+    "Method": "DeleteProperty",
+    "RelativePath": "api/Property/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.PropertyController",
+    "Method": "GetPropertyDetail",
+    "RelativePath": "api/Property/detail/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.PropertyController",
+    "Method": "GetProperties",
+    "RelativePath": "api/Property/list/{sellRent}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sellRent",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.PropertyController",
+    "Method": "UpdateProperty",
+    "RelativePath": "api/Property/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "propertyDto",
+        "Type": "WebApiPropiedades.Dtos.Property.PropertyUpdateDto",
         "IsRequired": true
       }
     ],

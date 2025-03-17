@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using WebApiPropiedades.Dtos.City;
+using WebApiPropiedades.Dtos.Property;
 using WebApiPropiedades.Models;
 
 namespace WebApiPropiedades.Helpers
@@ -10,6 +11,10 @@ namespace WebApiPropiedades.Helpers
         {
             CreateMap<City, CityDto>().ReverseMap();
             CreateMap<City, CityUpdateDto>().ReverseMap();
+           
+
+
+           
 
         }
     }

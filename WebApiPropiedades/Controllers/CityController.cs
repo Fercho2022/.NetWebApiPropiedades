@@ -1,12 +1,13 @@
-﻿using AutoMapper;
-using Azure;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
-
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using WebApiPropiedades.Data;
+using Microsoft.Extensions.Logging;
+using System.Net;
+using System.Security.Claims;
 using WebApiPropiedades.Dtos.City;
-using WebApiPropiedades.Exceptions;
+using WebApiPropiedades.Helpers;
 using WebApiPropiedades.Interface;
 using WebApiPropiedades.Models;
 using WebApiPropiedades.Repository;
@@ -17,132 +18,310 @@ namespace WebApiPropiedades.Controllers
     [ApiController]
     public class CityController : ControllerBase
     {
+        private readonly ICityRepository _cityRepository;
 
-
-        private readonly ICityRepository cityRepository;
-
-        private readonly IMapper mapper;
-
-        public CityController(ICityRepository cityRepository, IMapper mapper)
+        private readonly ILogger<CityController> _logger;
+        public CityController(ICityRepository cityRepository, ILogger<CityController> logger)
         {
-            this.cityRepository = cityRepository;
+            _cityRepository = cityRepository;
 
-            this.mapper = mapper;
+            _logger = logger;
+
         }
 
-        [HttpGet("")]
+        // GET api/city
+        [HttpGet("cities")]
+        [AllowAnonymous]
         public async Task<IActionResult> GetCities()
         {
+            try
+            {
+                var cities = await _cityRepository.GetCitiesAsync();
 
-            
+                var cityDto = cities.Select(c => CityMapper.MapToCityDto(c)).ToList();
 
-            var cities = await this.cityRepository.GetAllCitiesAsync();
+                return Ok(cityDto);
+            }
+            catch (Exception ex)
+            {
 
-            var citiesDto = mapper.Map<IEnumerable<CityDto>>(cities);
+                _logger.LogError(ex, "Error retrieving cities");
 
+                return StatusCode((int)HttpStatusCode.InternalServerError, "Error retrieving cities");
 
-            return Ok(citiesDto);
+            }
         }
 
-        // Post api/city/add/{cityName}
-        [HttpPost("add")]
-        public async Task<IActionResult> AddCity(string cityName)
+        // GET: api/city/5
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetCity(int id)
         {
-            City city = new City();
-            city.Name = cityName;
-            this.cityRepository.AddCity(city);
-            await this.cityRepository.SaveAsync();
-            return Ok(city);
+
+            try
+            {
+                var city = await _cityRepository.GetCityByIdAsync(id);
+
+                if (city == null)
+                {
+                    return NotFound("City not found");
+                }
+
+                var cityDto = CityMapper.MapToCityDto(city);
+
+                return Ok(cityDto);
+
+
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"Error retrieving city with ID: {id}");
+
+                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+
+
+
+            }
+
         }
 
-        // Post api/city/post  --Post the data in JSON Format
+        // POST: api/city/post
         [HttpPost("post")]
-        public async Task<IActionResult> AddCity([FromBody] CityDto cityDto)
+
+        [Authorize]// Este atributo asegura que solo usuarios autenticados puedan acceder
+        public async Task<IActionResult> AddCity(CityCreateDto cityDto)
         {
-            if (!ModelState.IsValid)
+            try
             {
-                return BadRequest(ModelState);
+                // Validación del modelo
+
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                // Verificar si la ciudad ya existe
+
+                if (await _cityRepository.CityExistsAsync(cityDto.Name))
+                {
+                    return BadRequest($"City {cityDto.Name} already exist");
+                }
+
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value; // Estándar
+    
+                // Si userId es nulo, usar un valor predeterminado
+                if (string.IsNullOrEmpty(userId))
+                {
+                    userId = "sistema"; // Asegurarse de que userId nunca sea nulo
+                    _logger.LogWarning("No userId found in claims. Using default value.");
+                }
+
+                // Mapear y asignar el ID del usuario autenticado
+                var city = CityMapper.MapToCity(cityDto, userId);
+
+                // Guardar en la base de datos
+                _cityRepository.AddCity(city);
+
+                await _cityRepository.SaveAsync();
+
+                return CreatedAtAction(nameof(AddCity), new { id = city.Id }, CityMapper.MapToCityDetailDto(city));
+
             }
+            catch (Exception ex)
+            {
 
-            City city = mapper.Map<City>(cityDto);
-
-            city.LastUpdatedBy = 1;
-
-            city.LastUpdatedOn = DateTime.Now;
-
-            this.cityRepository.AddCity(city);
-
-            await this.cityRepository.SaveAsync();
-
-            return StatusCode(201);
+                _logger.LogError(ex, "Error adding city");
+                return StatusCode((int)HttpStatusCode.InternalServerError, "Error adding city");
+            }
         }
 
+        // PUT: api/city/update/5
         [HttpPut("update/{id}")]
-        public async Task<IActionResult> UpdateCity(int id, CityDto cityDto)
+        [Authorize]
+        public async Task<IActionResult> UpdateCity(int id, CityUpdateDto cityDto)
         {
-
-            if (id != cityDto.Id)
+            try
             {
-                return BadRequest("Actualización no permitida");
+                if (id != cityDto.Id)
+                {
+                    return BadRequest("City Id mismatch");
+                }
 
+                var cityFromDb = await _cityRepository.GetCityByIdAsync(cityDto.Id);
+
+                if (cityFromDb == null)
+                {
+                    return NotFound("City not found");
+                }
+
+                // Verificar si el nuevo nombre ya existe para otra ciudad
+                var existingCity = await _cityRepository.GetCityByNameAsync(cityDto.Name);
+                if (existingCity != null && existingCity.Id != id)
+                {
+                    return BadRequest($"City {cityDto.Name} already exists");
+                }
+
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+                if (string.IsNullOrEmpty(userId))
+                {
+                    return Unauthorized("User not authenticated");
+                }
+
+                CityMapper.UpdateCityFromDto(cityFromDb, cityDto, userId);
+
+                _cityRepository.UpdateCity(cityFromDb);
+
+                await _cityRepository.SaveAsync();
+
+                return NoContent();
 
             }
-
-            var cityFromDb = await this.cityRepository.FindCity(id);
-
-            if (cityFromDb == null)
+            catch (Exception ex)
             {
-                return BadRequest("Actualización no permitida, no se encuentra Id");
+                _logger.LogError(ex, $"Error updating city with ID: {id}");
+
+                return StatusCode((int)HttpStatusCode.InternalServerError, "Error updating city");
+
             }
-
-            cityFromDb.LastUpdatedBy = 1;
-
-            cityFromDb.LastUpdatedOn = DateTime.Now;
-
-            mapper.Map(cityDto, cityFromDb);
-
-            throw new Exception("algo ocurrió");
-
-            await this.cityRepository.SaveAsync();
-
-            return StatusCode(200);
         }
 
+        // Delete api/city/delete/5
+        [HttpDelete("delete/{id}")]
+        [Authorize]
+        public async Task<IActionResult> DeleteCity(int id)
+        {
+            try
+            {
+                var city = await _cityRepository.GetCityByIdAsync(id);
+
+                if (city == null)
+                {
+                    return NotFound("city not found");
+                }
+
+                if (city.Properties != null && city.Properties.Any())
+                {
+
+                    return BadRequest("Cannot delete city with associated property");
+                }
+
+                _cityRepository.DeleteCity(id);
+
+                await _cityRepository.SaveAsync();
+
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"Error deleting city with ID {id}");
+
+                return StatusCode((int)HttpStatusCode.InternalServerError, "Error deleting city");
+
+            }
+        }
+
+        [HttpPatch("update/{id}")]
+        [Authorize]
+
+        public async Task<IActionResult> UpdateCityPatch(int id, JsonPatchDocument<City> cityToPatch)
+        {
+            try
+            {
+                var cityFromDb = await _cityRepository.GetCityByIdAsync(id);
+
+                if (cityFromDb == null)
+                {
+                    return NotFound("City not found");
+                }
+
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+                if (string.IsNullOrEmpty(userId))
+                {
+                    return Unauthorized("User not authenticated");
+                }
+                // Actualizar los campos de auditoría
+                cityFromDb.LastUpdatedBy = userId;
+                cityFromDb.LastUpdatedOn = DateTime.Now;
+
+                // Aplicar el parche a la entidad
+                cityToPatch.ApplyTo(cityFromDb, ModelState);
+
+                // Verificar si el modelo es válido después de aplicar el parche
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                // Guardar los cambios
+                _cityRepository.UpdateCity(cityFromDb);
+                await _cityRepository.SaveAsync();
+
+                return Ok(CityMapper.MapToCityDetailDto(cityFromDb));
+            }
+            catch (Exception ex)
+            {
+
+                _logger.LogError(ex, $"Error to updating city witch Patch for Id: {id}");
+
+                return StatusCode((int)HttpStatusCode.InternalServerError, "Error updating city");
+            }
+        }
 
 
         [HttpPut("updateCityName/{id}")]
-        public async Task<IActionResult> UpdateCity(int id, CityUpdateDto cityUpdateDto)
+        [Authorize]
+        public async Task<IActionResult> UpdateCityName(int id, CityUpdateDto cityDto)
         {
+            try
+            {
+                if (id != cityDto.Id)
+                {
+                    return BadRequest("City ID mismatch");
+                }
+                var cityFromDb = await _cityRepository.GetCityByIdAsync(id);
 
-            var cityFromDb = await this.cityRepository.FindCity(id);
+                if (cityFromDb == null)
+                {
+                    return NotFound("City not found");
+                }
 
-            cityFromDb.LastUpdatedBy = 1;
+                // Verificar si el nuevo nombre ya existe para otra ciudad
+                var existingCity = await _cityRepository.GetCityByNameAsync(cityDto.Name);
 
-            cityFromDb.LastUpdatedOn = DateTime.Now;
+                if (existingCity != null && existingCity.Id != id)
+                {
+                    return BadRequest($"City {cityDto.Name} already exists");
+                }
 
-            mapper.Map(cityUpdateDto, cityFromDb);
+                // Obtener el ID del usuario autenticado
+                var UserId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                if (UserId != null)
+                {
+                    return Unauthorized("User not authenticated");
+                }
 
-            await this.cityRepository.SaveAsync();
+                // Actualizar la ciudad con los datos del DTO
+                CityMapper.UpdateCityFromDto(cityFromDb, cityDto, UserId);
 
-            return StatusCode(200);
+                // Guardar cambios
+                _cityRepository.UpdateCity(cityFromDb);
 
+                await _cityRepository.SaveAsync();
+
+                return Ok(CityMapper.MapToCityDetailDto(cityFromDb));
+
+            }
+            catch (Exception ex)
+            {
+
+                _logger.LogError(ex, $"Error updating city name for ID: {id}");
+                return StatusCode((int)HttpStatusCode.InternalServerError, "Error updating city name");
+            }
         }
 
 
 
-
-        [HttpDelete("delete/{id}")]
-        public async Task<IActionResult> DeleteCity(int id)
-        {
-            this.cityRepository.DeleteCity(id);
-
-            await this.cityRepository.SaveAsync();
-
-            return Ok(id);
-
-
-
-
-        }
     }
+
 }
