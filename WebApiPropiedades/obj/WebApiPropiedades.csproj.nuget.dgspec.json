@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Cursos\\Net\\WebApiPropiedades\\WebApiPropiedades\\WebApiPropiedades.csproj": {}
+    "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\WebApiPropiedades.csproj": {}
   },
   "projects": {
-    "C:\\Cursos\\Net\\WebApiPropiedades\\WebApiPropiedades\\WebApiPropiedades.csproj": {
+    "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\WebApiPropiedades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Cursos\\Net\\WebApiPropiedades\\WebApiPropiedades\\WebApiPropiedades.csproj",
+        "projectUniqueName": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\WebApiPropiedades.csproj",
         "projectName": "WebApiPropiedades",
-        "projectPath": "C:\\Cursos\\Net\\WebApiPropiedades\\WebApiPropiedades\\WebApiPropiedades.csproj",
+        "projectPath": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\WebApiPropiedades.csproj",
         "packagesPath": "C:\\Users\\Standard\\.nuget\\packages\\",
-        "outputPath": "C:\\Cursos\\Net\\WebApiPropiedades\\WebApiPropiedades\\obj\\",
+        "outputPath": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Standard\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -48,6 +48,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.27.5, )"
             },
             "MailKit": {
               "target": "Package",

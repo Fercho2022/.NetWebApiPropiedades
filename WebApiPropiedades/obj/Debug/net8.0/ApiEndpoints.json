@@ -185,16 +185,100 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApiPropiedades.Controllers.PropertyController",
-    "Method": "AddProperty",
-    "RelativePath": "api/Property",
+    "ContainingType": "WebApiPropiedades.Controllers.FurnishingTypeController",
+    "Method": "AddFurnishingType",
+    "RelativePath": "api/FurnishingType",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "propertyDto",
-        "Type": "WebApiPropiedades.Dtos.Property.PropertyCreateDto",
+        "Name": "furnishingTypeDto",
+        "Type": "WebApiPropiedades.Dtos.FurnishingType.FurnishingTypeCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.FurnishingTypeController",
+    "Method": "GetFurnishingType",
+    "RelativePath": "api/FurnishingType/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.FurnishingTypeController",
+    "Method": "UpdateFurnishingType",
+    "RelativePath": "api/FurnishingType/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "furnishingTypeDto",
+        "Type": "WebApiPropiedades.Dtos.FurnishingType.FurnishingTypeUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.FurnishingTypeController",
+    "Method": "DeleteFurnishingType",
+    "RelativePath": "api/FurnishingType/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.FurnishingTypeController",
+    "Method": "GetFurnishingTypes",
+    "RelativePath": "api/FurnishingType/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.FurnishingTypeController",
+    "Method": "UpdateFurnishingTypePatch",
+    "RelativePath": "api/FurnishingType/update/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "furnishingTypeToPatch",
+        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
         "IsRequired": true
       }
     ],
@@ -212,6 +296,43 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.PropertyController",
+    "Method": "AddProperty",
+    "RelativePath": "api/Property/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "propertyDto",
+        "Type": "WebApiPropiedades.Dtos.Property.PropertyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.PropertyController",
+    "Method": "UploadPropertyImage",
+    "RelativePath": "api/Property/add/photo/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -264,6 +385,85 @@
       {
         "Name": "propertyDto",
         "Type": "WebApiPropiedades.Dtos.Property.PropertyUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.PropertyTypeController",
+    "Method": "AddPropertyType",
+    "RelativePath": "api/PropertyType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "propertyTypeDto",
+        "Type": "WebApiPropiedades.Dtos.PropertyType.PropertyTypeCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.PropertyTypeController",
+    "Method": "UpdatePropertyType",
+    "RelativePath": "api/PropertyType",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "propertyTypeDto",
+        "Type": "WebApiPropiedades.Dtos.PropertyType.PropertyTypeUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.PropertyTypeController",
+    "Method": "DeletePropertyType",
+    "RelativePath": "api/PropertyType/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.PropertyTypeController",
+    "Method": "GetPropertyTypes",
+    "RelativePath": "api/PropertyType/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.PropertyTypeController",
+    "Method": "GetPropertyType",
+    "RelativePath": "api/PropertyType/propertyType/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

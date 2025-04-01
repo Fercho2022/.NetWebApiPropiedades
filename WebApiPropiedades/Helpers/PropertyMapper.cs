@@ -33,8 +33,9 @@ namespace WebApiPropiedades.Helpers
             {
                 SellRent = property.SellRent,
                 Name = property.Name,
-                PropertyType = property.PropertyType.Name,
-                FurnishingType = property.FurnishingType.Name,
+                // Uso de operador de navegación segura (?) y operador de coalescencia nula (??)
+                PropertyType = property.PropertyType?.Name ?? "No especificado",
+                FurnishingType = property.FurnishingType?.Name ?? "No especificado",
                 EstPossessionOn = property.EstPossessionOn,
                 BuiltArea = property.BuiltArea,
                 Price = property.Price,
@@ -60,7 +61,7 @@ namespace WebApiPropiedades.Helpers
             };
         }
 
-        public static Property MapToProperty(PropertyCreateDto propertyDto, string userId = null)
+        public static Property MapToProperty(PropertyDto propertyDto, string userId = null)
         {
             return new Property
             {
@@ -71,20 +72,20 @@ namespace WebApiPropiedades.Helpers
                 Price = propertyDto.Price,
                 BHK = propertyDto.BHK,
                 BuiltArea = propertyDto.BuiltArea,
-                CarpetArea = propertyDto.CarpetArea,
-                Address = propertyDto.Address,
-                Address2 = propertyDto.Address2,
+                //CarpetArea = propertyDto.CarpetArea,
+                //Address = propertyDto.Address,
+                //Address2 = propertyDto.Address2,
                 CityId = propertyDto.CityId,
-                FloorNo = propertyDto.FloorNo,
-                TotalFloors = propertyDto.TotalFloors,
+                //FloorNo = propertyDto.FloorNo,
+                //TotalFloors = propertyDto.TotalFloors,
                 ReadyToMove = propertyDto.ReadyToMove,
-                MainEntrance = propertyDto.MainEntrance,
-                Security = propertyDto.Security,
-                Gated = propertyDto.Gated,
-                Maintenance = propertyDto.Maintenance,
+                //MainEntrance = propertyDto.MainEntrance,
+                //Security = propertyDto.Security,
+                //Gated = propertyDto.Gated,
+                //Maintenance = propertyDto.Maintenance,
                 EstPossessionOn = propertyDto.EstPossessionOn,
-                Age = propertyDto.Age,
-                Description = propertyDto.Description,
+                //Age = propertyDto.Age,
+                //Description = propertyDto.Description,
 
                 // Campos de BaseEntity
                 LastUpdatedBy = userId,

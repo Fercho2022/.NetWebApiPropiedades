@@ -8,6 +8,7 @@ using System.Net;
 using System.Security.Claims;
 using WebApiPropiedades.Data;
 using WebApiPropiedades.Extensions;
+using WebApiPropiedades.Helpers;
 using WebApiPropiedades.Interface;
 using WebApiPropiedades.Models;
 using WebApiPropiedades.Repository;
@@ -100,10 +101,16 @@ builder.Services.AddAuthentication(options =>
         RoleClaimType = ClaimTypes.Role
     };
 });
+
+builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("CloudinarySettings"));
+
 builder.Services.AddScoped<ICityRepository, CityRepository>();
 builder.Services.AddScoped<IPropertyRepository, PropertyRepository>();
+builder.Services.AddScoped<IPropertyTypeRepository, PropertyTypeRepository>();
+builder.Services.AddScoped<IFurnishingTypeRepository, FurnishingTypeRepository>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddScoped<IPhotoService, PhotoService>();
 
 // Registrar el servicio transient
 builder.Services.AddTransient<IDataSeeder, DataSeeder>();

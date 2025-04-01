@@ -6,7 +6,6 @@ namespace WebApiPropiedades.Interface
     {
         Task<IEnumerable<City>> GetCitiesAsync();
         Task<City> GetCityByIdAsync(int Id);
-
         Task<City> GetCityByNameAsync(string cityName);
         void AddCity(City city);
         void DeleteCity(int id);

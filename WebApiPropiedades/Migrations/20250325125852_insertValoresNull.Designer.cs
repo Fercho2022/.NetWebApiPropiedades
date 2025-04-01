@@ -12,8 +12,8 @@ using WebApiPropiedades.Data;
 namespace WebApiPropiedades.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20250224160011_SeedDemoData")]
-    partial class SeedDemoData
+    [Migration("20250325125852_insertValoresNull")]
+    partial class insertValoresNull
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
