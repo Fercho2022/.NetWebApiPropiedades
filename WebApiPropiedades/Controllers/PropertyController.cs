@@ -103,7 +103,7 @@ namespace WebApiPropiedades.Controllers
             }
         }
 
-        // Nuevo método para subir imágenes
+        // POST: api/property/add/photo/id
         [HttpPost("add/photo/{id}")]
         public async Task<IActionResult> UploadPropertyImage(int id, IFormFile file)
         {
