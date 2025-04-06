@@ -1,0 +1,561 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\dtos\\property\\propertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:dtos\\property\\propertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\controllers\\furnishingtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:controllers\\furnishingtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\services\\photoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:services\\photoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\repository\\propertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:repository\\propertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\interface\\ipropertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:interface\\ipropertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\interface\\ipropertytyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:interface\\ipropertytyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\interface\\ifurnishingtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:interface\\ifurnishingtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\repository\\furnishingtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:repository\\furnishingtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\interface\\iphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:interface\\iphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\helpers\\cloudinarysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:helpers\\cloudinarysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\helpers\\propertymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:helpers\\propertymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\controllers\\propertytypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:controllers\\propertytypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\helpers\\furnishingtypemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:helpers\\furnishingtypemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\migrations\\20250325125852_insertvaloresnull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:migrations\\20250325125852_insertvaloresnull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\dtos\\property\\propertycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:dtos\\property\\propertycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\repository\\propertytyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:repository\\propertytyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\dtos\\furnishingtype\\furnishingtypeupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:dtos\\furnishingtype\\furnishingtypeupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\dtos\\furnishingtype\\furnishingtypecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:dtos\\furnishingtype\\furnishingtypecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\dtos\\furnishingtype\\furnishingtypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:dtos\\furnishingtype\\furnishingtypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\dtos\\furnishingtype\\furnishingtypedetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:dtos\\furnishingtype\\furnishingtypedetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\dtos\\propertytype\\propertytypeupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:dtos\\propertytype\\propertytypeupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\dtos\\propertytype\\propertytypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:dtos\\propertytype\\propertytypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\helpers\\propertytypemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:helpers\\propertytypemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\repository\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:repository\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\interface\\icityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:interface\\icityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\dtos\\propertytype\\propertytypecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:dtos\\propertytype\\propertytypecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|c:\\cursos\\net\\.netwebapipropiedades\\webapipropiedades\\dtos\\propertytype\\propertytypedetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D03FDD-3B9E-4DB4-B1CF-00F224038F9A}|WebApiPropiedades.csproj|solutionrelative:dtos\\propertytype\\propertytypedetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3822e751-eb69-4b0e-b301-595a9e4c74d5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "Models\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:51:12.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IPropertyRepository.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Interface\\IPropertyRepository.cs",
+              "RelativeDocumentMoniker": "Interface\\IPropertyRepository.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Interface\\IPropertyRepository.cs",
+              "RelativeToolTip": "Interface\\IPropertyRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T11:52:41.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PropertyController.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Controllers\\PropertyController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PropertyController.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Controllers\\PropertyController.cs",
+              "RelativeToolTip": "Controllers\\PropertyController.cs",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAswF0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T14:44:34.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Property.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Models\\Property.cs",
+              "RelativeDocumentMoniker": "Models\\Property.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Models\\Property.cs",
+              "RelativeToolTip": "Models\\Property.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAA/wCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:58:47.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAoAAAAAAAAAAADwvx8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-28T18:15:17.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FurnishingTypeRepository.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Repository\\FurnishingTypeRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\FurnishingTypeRepository.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Repository\\FurnishingTypeRepository.cs",
+              "RelativeToolTip": "Repository\\FurnishingTypeRepository.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAswFYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T18:06:25.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PhotoService.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Services\\PhotoService.cs",
+              "RelativeDocumentMoniker": "Services\\PhotoService.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Services\\PhotoService.cs",
+              "RelativeToolTip": "Services\\PhotoService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T18:09:44.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PropertyDto.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Dtos\\Property\\PropertyDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Property\\PropertyDto.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Dtos\\Property\\PropertyDto.cs",
+              "RelativeToolTip": "Dtos\\Property\\PropertyDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T14:40:30.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FurnishingTypeController.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Controllers\\FurnishingTypeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FurnishingTypeController.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Controllers\\FurnishingTypeController.cs",
+              "RelativeToolTip": "Controllers\\FurnishingTypeController.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAkwFgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T18:22:06.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PropertyRepository.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Repository\\PropertyRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\PropertyRepository.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Repository\\PropertyRepository.cs",
+              "RelativeToolTip": "Repository\\PropertyRepository.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAkwDMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T11:56:41.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CloudinarySettings.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Helpers\\CloudinarySettings.cs",
+              "RelativeDocumentMoniker": "Helpers\\CloudinarySettings.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Helpers\\CloudinarySettings.cs",
+              "RelativeToolTip": "Helpers\\CloudinarySettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T22:54:47.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IFurnishingTypeRepository.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Interface\\IFurnishingTypeRepository.cs",
+              "RelativeDocumentMoniker": "Interface\\IFurnishingTypeRepository.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Interface\\IFurnishingTypeRepository.cs",
+              "RelativeToolTip": "Interface\\IFurnishingTypeRepository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T18:04:59.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IPropertyTypeRepository.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Interface\\IPropertyTypeRepository.cs",
+              "RelativeDocumentMoniker": "Interface\\IPropertyTypeRepository.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Interface\\IPropertyTypeRepository.cs",
+              "RelativeToolTip": "Interface\\IPropertyTypeRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T15:09:44.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IPhotoService.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Interface\\IPhotoService.cs",
+              "RelativeDocumentMoniker": "Interface\\IPhotoService.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Interface\\IPhotoService.cs",
+              "RelativeToolTip": "Interface\\IPhotoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T18:44:12.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAAAF8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:19:56.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PropertyCreateDto.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Dtos\\Property\\PropertyCreateDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Property\\PropertyCreateDto.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Dtos\\Property\\PropertyCreateDto.cs",
+              "RelativeToolTip": "Dtos\\Property\\PropertyCreateDto.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAswB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T14:53:05.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PropertyMapper.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Helpers\\PropertyMapper.cs",
+              "RelativeDocumentMoniker": "Helpers\\PropertyMapper.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Helpers\\PropertyMapper.cs",
+              "RelativeToolTip": "Helpers\\PropertyMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T14:57:19.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PropertyTypeController.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Controllers\\PropertyTypeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PropertyTypeController.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Controllers\\PropertyTypeController.cs",
+              "RelativeToolTip": "Controllers\\PropertyTypeController.cs",
+              "ViewState": "AQIAAMkAAAAAAAAAAAAkwPMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T18:12:31.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FurnishingTypeMapper.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Helpers\\FurnishingTypeMapper.cs",
+              "RelativeDocumentMoniker": "Helpers\\FurnishingTypeMapper.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Helpers\\FurnishingTypeMapper.cs",
+              "RelativeToolTip": "Helpers\\FurnishingTypeMapper.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T18:23:36.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250325125852_insertValoresNull.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Migrations\\20250325125852_insertValoresNull.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250325125852_insertValoresNull.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Migrations\\20250325125852_insertValoresNull.cs",
+              "RelativeToolTip": "Migrations\\20250325125852_insertValoresNull.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T12:58:52.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FurnishingTypeCreateDto.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Dtos\\FurnishingType\\FurnishingTypeCreateDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\FurnishingType\\FurnishingTypeCreateDto.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Dtos\\FurnishingType\\FurnishingTypeCreateDto.cs",
+              "RelativeToolTip": "Dtos\\FurnishingType\\FurnishingTypeCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T18:26:38.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PropertyTypeRepository.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Repository\\PropertyTypeRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\PropertyTypeRepository.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Repository\\PropertyTypeRepository.cs",
+              "RelativeToolTip": "Repository\\PropertyTypeRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T18:05:05.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FurnishingTypeUpdateDto.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Dtos\\FurnishingType\\FurnishingTypeUpdateDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\FurnishingType\\FurnishingTypeUpdateDto.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Dtos\\FurnishingType\\FurnishingTypeUpdateDto.cs",
+              "RelativeToolTip": "Dtos\\FurnishingType\\FurnishingTypeUpdateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T18:27:17.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FurnishingTypeDto.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Dtos\\FurnishingType\\FurnishingTypeDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\FurnishingType\\FurnishingTypeDto.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Dtos\\FurnishingType\\FurnishingTypeDto.cs",
+              "RelativeToolTip": "Dtos\\FurnishingType\\FurnishingTypeDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T18:25:09.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FurnishingTypeDetailDto.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Dtos\\FurnishingType\\FurnishingTypeDetailDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\FurnishingType\\FurnishingTypeDetailDto.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Dtos\\FurnishingType\\FurnishingTypeDetailDto.cs",
+              "RelativeToolTip": "Dtos\\FurnishingType\\FurnishingTypeDetailDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T18:25:58.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PropertyTypeMapper.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Helpers\\PropertyTypeMapper.cs",
+              "RelativeDocumentMoniker": "Helpers\\PropertyTypeMapper.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Helpers\\PropertyTypeMapper.cs",
+              "RelativeToolTip": "Helpers\\PropertyTypeMapper.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwCYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T12:51:41.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PropertyTypeUpdateDto.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Dtos\\PropertyType\\PropertyTypeUpdateDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\PropertyType\\PropertyTypeUpdateDto.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Dtos\\PropertyType\\PropertyTypeUpdateDto.cs",
+              "RelativeToolTip": "Dtos\\PropertyType\\PropertyTypeUpdateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T13:40:30.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PropertyTypeDto.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Dtos\\PropertyType\\PropertyTypeDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\PropertyType\\PropertyTypeDto.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Dtos\\PropertyType\\PropertyTypeDto.cs",
+              "RelativeToolTip": "Dtos\\PropertyType\\PropertyTypeDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T18:50:10.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CityRepository.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Repository\\CityRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CityRepository.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Repository\\CityRepository.cs",
+              "RelativeToolTip": "Repository\\CityRepository.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowCYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T14:14:02.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PropertyTypeCreateDto.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Dtos\\PropertyType\\PropertyTypeCreateDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\PropertyType\\PropertyTypeCreateDto.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Dtos\\PropertyType\\PropertyTypeCreateDto.cs",
+              "RelativeToolTip": "Dtos\\PropertyType\\PropertyTypeCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T13:39:40.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ICityRepository.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Interface\\ICityRepository.cs",
+              "RelativeDocumentMoniker": "Interface\\ICityRepository.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Interface\\ICityRepository.cs",
+              "RelativeToolTip": "Interface\\ICityRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T15:39:49.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PropertyTypeDetailDto.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Dtos\\PropertyType\\PropertyTypeDetailDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\PropertyType\\PropertyTypeDetailDto.cs",
+              "ToolTip": "C:\\Cursos\\Net\\.NetWebApiPropiedades\\WebApiPropiedades\\Dtos\\PropertyType\\PropertyTypeDetailDto.cs",
+              "RelativeToolTip": "Dtos\\PropertyType\\PropertyTypeDetailDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T13:07:37.805Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
