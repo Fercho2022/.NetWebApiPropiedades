@@ -21,7 +21,7 @@
         public bool Gated { get; set; }
         public int Maintenance { get; set; } = 0;
         public DateTime EstPossessionOn { get; set; }
-        public List<string> ImageUrls { get; set; }
+        
 
     }
 }

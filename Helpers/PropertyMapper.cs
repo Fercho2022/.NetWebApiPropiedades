@@ -25,6 +25,7 @@ namespace WebApiPropiedades.Helpers
                 EstPossessionOn = property.EstPossessionOn,
                 Photo = property.Photos?.FirstOrDefault(p => p.IsPrimary)?.ImageUrl
             };
+
         }
 
         public static PropertyDetailDto MapToPropertyDetailDto(Property property)

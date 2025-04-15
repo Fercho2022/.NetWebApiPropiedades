@@ -2,7 +2,7 @@
 {
     public class PropertyDetailDto
 
-     {
+    {
         public int SellRent { get; set; }
         public string Name { get; set; }
         public string PropertyType { get; set; }

@@ -461,7 +461,6 @@ C:\Cursos\Net\.NetWebApiPropiedades\WebApiPropiedades\obj\Debug\net8.0\WebApiPro
 C:\Cursos\Net\.NetWebApiPropiedades\WebApiPropiedades\obj\Debug\net8.0\WebApiPropiedades.csproj.CoreCompileInputs.cache
 C:\Cursos\Net\.NetWebApiPropiedades\WebApiPropiedades\obj\Debug\net8.0\WebApiPropiedades.MvcApplicationPartsAssemblyInfo.cs
 C:\Cursos\Net\.NetWebApiPropiedades\WebApiPropiedades\obj\Debug\net8.0\WebApiPropiedades.MvcApplicationPartsAssemblyInfo.cache
-C:\Cursos\Net\.NetWebApiPropiedades\WebApiPropiedades\obj\Debug\net8.0\WebApiPropiedades.sourcelink.json
 C:\Cursos\Net\.NetWebApiPropiedades\WebApiPropiedades\obj\Debug\net8.0\staticwebassets.build.json
 C:\Cursos\Net\.NetWebApiPropiedades\WebApiPropiedades\obj\Debug\net8.0\staticwebassets.development.json
 C:\Cursos\Net\.NetWebApiPropiedades\WebApiPropiedades\obj\Debug\net8.0\staticwebassets\msbuild.WebApiPropiedades.Microsoft.AspNetCore.StaticWebAssets.props

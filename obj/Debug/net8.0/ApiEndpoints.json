@@ -339,6 +339,27 @@
   },
   {
     "ContainingType": "WebApiPropiedades.Controllers.PropertyController",
+    "Method": "DeletePhoto",
+    "RelativePath": "api/Property/Delete-photo/{propertyId}/photos/{photoId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "propertyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "photoId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.PropertyController",
     "Method": "GetPropertyDetail",
     "RelativePath": "api/Property/detail/{id}",
     "HttpMethod": "GET",
@@ -364,6 +385,27 @@
       {
         "Name": "sellRent",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiPropiedades.Controllers.PropertyController",
+    "Method": "SetMainPhoto",
+    "RelativePath": "api/Property/set-primary-photo/{propertyId}/photos/{photoId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "propertyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "photoId",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
